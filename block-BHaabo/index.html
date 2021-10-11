@@ -1,8 +1,74 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
-
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+<!DOCTYPE html>
+<html lang="end">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/862245ed62.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container flex1">
+                <div class="logo"><img src="assets/logo.png" alt="logo"></div>
+                <nav class="nav">
+                    <img src="assets/icons/bell.svg" alt="bell icon">
+                    <small class="header">Sarah Jones</small>
+                    <img src="assets/icons/user.svg" alt="bell icon">
+                </nav>
+            </div>
+        </header> 
+        <section>
+            <div class="container flex2">
+                <article  class="left">
+                    <div>
+                        <img src="assets/icons/dashboard.svg" alt="dashboard logo">
+                        <small>Dashboard</small>
+                    </div>
+                    <div>
+                        <img src="assets/icons/article.svg" alt="dashboard logo">
+                        <small>Article</small>
+                    </div>
+                    <div>
+                        <img src="assets/icons/analytics.svg" alt="dashboard logo">
+                        <small>Analytics</small>
+                    </div>
+                    <div>
+                        <img src="assets/icons/inbox.svg" alt="dashboard logo">
+                        <small>Inbox</small>
+                    </div>
+                    <div>
+                        <img src="assets/icons/setting.svg" alt="dashboard logo">
+                        <small>Settings</small>
+                    </div>
+                    <div>
+                        <img class="logout" src="assets/icons/log-out.svg" alt="dashboard logo">
+                        <small>LOG-OUT</small>
+                    </div>
+                </article>
+                <div class="right">
+                    <img src="assets/01.png" alt="">
+                    <h1>Why we are doing altcampus</h1>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container flex3">
+                <small class="footer">&copy; Altcampus</small>
+                <nav>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
